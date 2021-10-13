@@ -14,21 +14,26 @@ installing the requirements
 pip install -r requirements.txt
 '''
 
+'''bash
 git init
 dvc init
 dvc add data_given/winequality_red.csv
+'''
 
+'''bash
 git add .
 git commit -m "this is my first commit"
+'''
 
-online update for Readme 
+online update for Readme
+'''bash 
 git add . && git commit -m "update Readme.md"
-
+'''
+'''bash
 git remote set-url origin https://github.com/kuntianth14082000/simple_dvc_demo.git
-
 git branch -M main
-
 git push origin main
+'''
 
 
 
