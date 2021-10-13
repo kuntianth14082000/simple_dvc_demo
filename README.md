@@ -17,3 +17,7 @@ pip install -r requirements.txt
 git init
 dvc init
 dvc add data_given/winequality_red.csv
+
+git add .
+git commit -m "this is my first commit"
+
