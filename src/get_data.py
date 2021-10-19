@@ -21,7 +21,7 @@ def get_data(config_path):
 if __name__ =="__main__":
     args = argparse.ArgumentParser()
     #print(os.getcwd())
-    os.chdir(r'C:/Users/knora/PycharmProjects/simple_app')
+    os.chdir('C:/Users/knora/PycharmProjects/simple_app')
     args.add_argument("--config", default="params.yaml")
     parsed_args = args.parse_args()
     data = get_data(config_path = parsed_args.config)
